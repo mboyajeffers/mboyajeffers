@@ -20,8 +20,7 @@ I build end-to-end data systems — from infrastructure provisioning to automate
 
 | Repository | Description |
 |------------|-------------|
-| [**data-engineering-demos**](https://github.com/mboyajeffers/data-engineering-demos) | Production-quality patterns: ETL templates, financial metrics (VaR, Sharpe), FX conversion, data validation |
-| [**Proof_Package**](https://github.com/mboyajeffers/Proof_Package) | Public API pipelines: USASpending, SEC EDGAR, NIST NVD, EIA-930. Star schema, quality gates |
+| [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | Production pipelines (SEC, NIST, EIA, USASpending), financial metrics (VaR, Sharpe), ETL frameworks, data validation |
 
 ---
 
