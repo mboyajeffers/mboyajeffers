@@ -1,6 +1,6 @@
 # Mboya Jeffers
 
-**No CS degree. No FAANG internship. Just production systems I built and operate myself.**
+**Production systems I built and operate myself.**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-38M+_Rows-blue?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/mboya-jeffers-6377ba325)
