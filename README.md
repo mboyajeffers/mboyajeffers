@@ -9,15 +9,15 @@
 
 ### What I Build
 
-I design and operate a **multi-tenant analytics platform** on GCP serving 7 clients across 11 industries. This isn't a portfolio demo—it's real infrastructure running 24/7.
+I design and operate a **multi-tenant analytics platform** on GCP spanning 11 industries. This isn't a portfolio demo—it's real infrastructure running 24/7.
 
 ```
 Infrastructure I run daily:
 ├── GCP VM (nginx → Gunicorn → Flask → PostgreSQL)
-├── 6 systemd services, zero babysitting
+├── 5 systemd services, zero babysitting
 ├── Job orchestrator with state machine
 ├── Star schemas (Kimball methodology)
-└── CI/CD with 500+ automated tests
+└── CI/CD with 525 automated tests
 ```
 
 ---
@@ -29,8 +29,8 @@ Infrastructure I run daily:
 | Data Processed | **38.5M+ rows** |
 | Industry Engines | **11** |
 | KPIs | **188** |
-| API Endpoints | **250+** |
-| Automated Tests | **500+** |
+| API Endpoints | **200+** |
+| Automated Tests | **525** |
 
 ---
 
