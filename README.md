@@ -1,23 +1,23 @@
 # Mboya Jeffers
 
-**Production systems I built and operate myself.**
+**Data engineer building production pipelines across 8 industries.**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-38M+_Rows-blue?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-4.3M+_Rows-blue?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/mboya-jeffers-6377ba325)
 
 ---
 
 ### What I Build
 
-I design and operate a **multi-tenant analytics platform** on GCP spanning 11 industries. This isn't a portfolio demo—it's real infrastructure running 24/7.
+End-to-end data pipelines: API extraction, Kimball star schema modeling, data quality validation, and automated intelligence reports. Every number traces back to a verifiable public data source.
 
 ```
-Infrastructure I run daily:
-├── GCP VM (nginx → Gunicorn → Flask → PostgreSQL)
-├── 5 systemd services, zero babysitting
-├── Job orchestrator with state machine
-├── Star schemas (Kimball methodology)
-└── CI/CD with 525 automated tests
+Pipeline Architecture:
+├── 8 public APIs (FRED, Yahoo Finance, SEC EDGAR, CoinGecko, Steam, ESPN, Open-Meteo, NREL)
+├── Kimball star schema transformation (30+ dim/fact tables)
+├── Data quality framework (6 validation rule types)
+├── Automated PDF reports (weekly, monthly, quarterly)
+└── GCP infrastructure (Terraform, PostgreSQL, CI/CD)
 ```
 
 ---
@@ -26,19 +26,27 @@ Infrastructure I run daily:
 
 | Metric | Value |
 |--------|-------|
-| Data Processed | **38.5M+ rows** |
-| Industry Engines | **11** |
-| KPIs | **188** |
-| API Endpoints | **200+** |
-| Automated Tests | **525** |
+| Data Processed | **4.3M+ rows** |
+| Industries | **8** (finance, brokerage, crypto, gaming, sports, weather, solar, compliance) |
+| Data Sources | **8 public APIs** |
+| Intelligence Reports | **23 branded PDFs** |
+| Automated Tests | **525+** |
 
 ---
 
-### Featured
+### Repositories
 
 [![Data-Engineering-Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=mboyajeffers&repo=Data-Engineering-Portfolio&theme=default)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
 
-**8 production pipelines** pulling from government APIs: SEC EDGAR, USASpending, CMS, EIA, NIST. Star schemas, quality gates, full documentation.
+[![financial-data-engineering](https://github-readme-stats.vercel.app/api/pin/?username=mboyajeffers&repo=financial-data-engineering&theme=default)](https://github.com/mboyajeffers/financial-data-engineering)
+
+[![financial-market-analysis](https://github-readme-stats.vercel.app/api/pin/?username=mboyajeffers&repo=financial-market-analysis&theme=default)](https://github.com/mboyajeffers/financial-market-analysis)
+
+| Repo | What It Shows |
+|------|--------------|
+| **Data-Engineering-Portfolio** | 8 projects, production platform infra, architecture docs |
+| **financial-data-engineering** | ETL pipeline code, star schema modeling, quality framework, 68 tests |
+| **financial-market-analysis** | 23 intelligence reports (PDFs), KPI methodology, data source docs |
 
 ---
 
@@ -47,9 +55,11 @@ Infrastructure I run daily:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=flat-square)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
 
@@ -57,4 +67,4 @@ Infrastructure I run daily:
 
 **MboyaJeffers9@gmail.com** · Remote (US-based)
 
-*Looking for remote data engineering roles where I can build systems that scale.*
+*Open to remote data engineering roles. All code is public and independently runnable.*
