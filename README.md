@@ -36,17 +36,11 @@ Pipeline Architecture:
 
 ### Repositories
 
-[![Data-Engineering-Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=mboyajeffers&repo=Data-Engineering-Portfolio&theme=default)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
-
-[![financial-data-engineering](https://github-readme-stats.vercel.app/api/pin/?username=mboyajeffers&repo=financial-data-engineering&theme=default)](https://github.com/mboyajeffers/financial-data-engineering)
-
-[![financial-market-analysis](https://github-readme-stats.vercel.app/api/pin/?username=mboyajeffers&repo=financial-market-analysis&theme=default)](https://github.com/mboyajeffers/financial-market-analysis)
-
 | Repo | What It Shows |
 |------|--------------|
-| **Data-Engineering-Portfolio** | 8 projects, production platform infra, architecture docs |
-| **financial-data-engineering** | ETL pipeline code, star schema modeling, quality framework, 68 tests |
-| **financial-market-analysis** | 23 intelligence reports (PDFs), KPI methodology, data source docs |
+| [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 8 projects, production platform infra, architecture docs |
+| [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | ETL pipeline code, star schema modeling, quality framework, 68 tests [![CI](https://github.com/mboyajeffers/financial-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/mboyajeffers/financial-data-engineering/actions) |
+| [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 23 intelligence reports (PDFs), KPI methodology, data source docs |
 
 ---
 
