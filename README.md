@@ -30,7 +30,7 @@ Pipeline Architecture:
 | Data Processed | **4.3M+ rows** |
 | Industries | **8** (finance, brokerage, crypto, gaming, sports, weather, solar, compliance) |
 | Data Sources | **8 public APIs** |
-| Intelligence Reports | **33 branded PDFs** |
+| Intelligence Reports | **89 branded PDFs** |
 | Automated Tests | **100+** (public repos) |
 
 ---
@@ -41,7 +41,7 @@ Pipeline Architecture:
 |------|--------------|
 | [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 8 projects, production platform infra, architecture docs |
 | [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | ETL pipeline code, star schema modeling, quality framework, 68 tests [![CI](https://github.com/mboyajeffers/financial-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/mboyajeffers/financial-data-engineering/actions) |
-| [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 33 intelligence reports (PDFs), report generators, enterprise showcase, KPI methodology |
+| [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 89 intelligence reports (PDFs), report generators, enterprise showcase, KPI methodology |
 
 ---
 
