@@ -31,7 +31,7 @@ Pipeline Architecture:
 | Industries | **8** (finance, brokerage, crypto, gaming, sports, weather, solar, compliance) |
 | Data Sources | **8 public APIs** |
 | Intelligence Reports | **33 branded PDFs** |
-| Automated Tests | **750+** |
+| Automated Tests | **100+** (public repos) |
 
 ---
 
