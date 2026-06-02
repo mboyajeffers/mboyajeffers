@@ -15,10 +15,11 @@ End-to-end data and ML pipelines: API extraction, Kimball star schema modeling, 
 Pipeline Architecture:
 ├── 8 public APIs (FRED, Yahoo Finance, SEC EDGAR, CoinGecko, Steam, ESPN, Open-Meteo, NREL)
 ├── Kimball star schema transformation (30+ dim/fact tables)
-├── Feature engineering + ML model training (scikit-learn, statsmodels)
+├── Feature engineering + ML model training (scikit-learn, statsmodels, GARCH)
 ├── Data quality framework (6 validation rule types)
 ├── Automated PDF reports (weekly, monthly, quarterly)
-└── GCP infrastructure (Terraform, PostgreSQL, CI/CD)
+├── GCP infrastructure (Terraform, PostgreSQL, Nginx, systemd services, CI/CD)
+└── Trading signal pipeline (direction classifier, volatility model, live paper execution)
 ```
 
 ---
@@ -29,8 +30,9 @@ Pipeline Architecture:
 |--------|-------|
 | Data Processed | **4.3M+ rows** |
 | Industries | **8** (finance, brokerage, crypto, gaming, sports, weather, solar, compliance) |
-| Data Sources | **8 public APIs** |
-| Intelligence Reports | **89 branded PDFs** |
+| Data Sources | **8 public APIs + live market feeds** |
+| Intelligence Reports | **89 branded PDFs + 3 white glove live-data demos** |
+| ML Models Deployed | **6** (4 day trading signals, swing classifier + VaR — paper trading live) |
 | Automated Tests | **100+** (public repos) |
 
 ---
@@ -41,7 +43,20 @@ Pipeline Architecture:
 |------|--------------|
 | [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 8 projects, production platform infra, architecture docs |
 | [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | ETL pipeline code, star schema modeling, quality framework, 68 tests [![CI](https://github.com/mboyajeffers/financial-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/mboyajeffers/financial-data-engineering/actions) |
-| [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 89 intelligence reports (PDFs), report generators, enterprise showcase, KPI methodology |
+| [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 89 intelligence reports (PDFs), 3 white glove live-data demos, report generators, enterprise showcase |
+
+---
+
+### ML & Trading Systems
+
+Production ML pipeline running live on GCP — daily signal generation with paper execution:
+
+| System | Models | Accuracy | Status |
+|--------|--------|----------|--------|
+| Day trading signals | Momentum classifier, scalp variant, intraday VaR, volume anomaly | 78.3% (momentum) | Live — 25 tickers, daily |
+| Swing trading | Direction classifier v2, GARCH(1,1) VaR | 69.1% in-sample / walk-forward validated | Paper trading active |
+
+Both systems run end-to-end: feature engineering from daily OHLCV bars → model inference → risk sizing → broker API (Alpaca paper).
 
 ---
 
@@ -58,6 +73,8 @@ Pipeline Architecture:
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![statsmodels](https://img.shields.io/badge/statsmodels-4C72B0?style=flat-square)
 ![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
 
 ---
 
