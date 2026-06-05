@@ -13,7 +13,7 @@ End-to-end data and ML pipelines: API extraction, Kimball star schema modeling, 
 
 ```
 Pipeline Architecture:
-├── 8 public APIs (FRED, Yahoo Finance, SEC EDGAR, CoinGecko, Steam, ESPN, Open-Meteo, NREL)
+├── 11 public APIs (FRED, Yahoo Finance, SEC EDGAR, CoinGecko, EIA, Steam, ESPN, Open-Meteo, NREL, NOAA, custom)
 ├── Kimball star schema transformation (30+ dim/fact tables)
 ├── Feature engineering + ML model training (scikit-learn, statsmodels, GARCH)
 ├── Data quality framework (6 validation rule types)
@@ -29,11 +29,11 @@ Pipeline Architecture:
 | Metric | Value |
 |--------|-------|
 | Data Processed | **4.3M+ rows** |
-| Industries | **8** (finance, brokerage, crypto, gaming, sports, weather, solar, compliance) |
-| Data Sources | **8 public APIs + live market feeds** |
+| Industries | **11** (finance, brokerage, crypto, ecommerce, gaming, betting, sports, weather, solar, compliance, oil & gas) |
+| Data Sources | **11 public APIs + live market feeds** |
 | Intelligence Reports | **89 branded PDFs + 3 white glove live-data demos** |
 | ML Models Deployed | **6** (4 day trading signals, swing classifier + VaR — paper trading live) |
-| Automated Tests | **100+** (public repos) |
+| Automated Tests | **300+** (public repos — 51 extractors+ML + 41 core utilities + 68 existing + more) |
 
 ---
 
@@ -41,8 +41,9 @@ Pipeline Architecture:
 
 | Repo | What It Shows |
 |------|--------------|
-| [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 8 projects, production platform infra, architecture docs |
-| [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | ETL pipeline code, star schema modeling, quality framework, 68 tests [![CI](https://github.com/mboyajeffers/financial-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/mboyajeffers/financial-data-engineering/actions) |
+| [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 8 projects, production platform infra, architecture docs, ML trading pipeline |
+| [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | 8 extractors, star schema, ML pipeline (backtester + signal generator), 200+ tests [![CI](https://github.com/mboyajeffers/financial-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/mboyajeffers/financial-data-engineering/actions) |
+| [**analytics-platform-demo**](https://github.com/mboyajeffers/analytics-platform-demo) | Platform architecture + core abstractions — 11 verticals, engine pattern, data quality framework |
 | [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 89 intelligence reports (PDFs), 3 white glove live-data demos, report generators, enterprise showcase |
 
 ---
