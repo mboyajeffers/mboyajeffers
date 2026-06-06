@@ -1,4 +1,4 @@
-# Clean Metrics Studio
+# Mboya Jeffers
 
 **Automated market intelligence for hedge funds, crypto funds, energy operators, and institutional buyers.**
 
@@ -148,7 +148,7 @@ If you work with data-hungry firms in finance, energy, or crypto and you're look
 
 ## Contact
 
-**Mboya Jeffers** — Data & ML Engineer · Clean Metrics Studio
+**Mboya Jeffers** — Data & ML Engineer
 
 - **Email:** MboyaJeffers9@gmail.com
 - **LinkedIn:** [linkedin.com/in/mboya-jeffers-6377ba325](https://linkedin.com/in/mboya-jeffers-6377ba325)
