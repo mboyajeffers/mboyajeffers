@@ -5,7 +5,7 @@
 I build and operate a live data platform that generates branded, verifiable analytics reports across 9 industry verticals — weekly, monthly, and quarterly — with every number traceable to a public API source pulled at generation time.
 
 [![Reports](https://img.shields.io/badge/Sample_Reports-89_PDFs-6366f1?style=flat-square)](https://github.com/mboyajeffers/financial-market-analysis)
-[![Portfolio](https://img.shields.io/badge/Portfolio-4.3M+_Rows-3b82f6?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-20M+_Rows-3b82f6?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
 [![CI](https://github.com/mboyajeffers/financial-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/mboyajeffers/financial-data-engineering/actions)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/mboya-jeffers-6377ba325)
 
@@ -94,7 +94,7 @@ Both systems run end-to-end: feature engineering from daily OHLCV bars → model
 
 | Metric | Value |
 |--------|-------|
-| Data processed | **4.3M+ rows** (public portfolio) |
+| Data processed | **20M+ rows** (public portfolio) |
 | Verticals | **9 industry coverage areas** |
 | Live data sources | **9 public APIs** |
 | Intelligence reports | **89 branded PDFs + 3 white-glove demos** |
@@ -108,7 +108,7 @@ Both systems run end-to-end: feature engineering from daily OHLCV bars → model
 | Repo | What's in it |
 |------|-------------|
 | [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 89 sample reports (PDFs), 3 white-glove demos, report generators, service tiers + pricing |
-| [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 8 projects across 8 industries, 4.3M+ rows, ML trading pipeline, platform infrastructure docs |
+| [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 8 projects across 8 industries, 20M+ rows, ML trading pipeline, platform infrastructure docs |
 | [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | 8 API extractors, Kimball star schema, ML pipeline (backtester + signal generator), 200+ tests |
 
 ---
