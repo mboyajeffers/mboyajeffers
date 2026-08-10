@@ -63,7 +63,7 @@ Both systems run end-to-end: feature engineering from daily OHLCV bars → model
 
 Alongside the engineering, I run **white-glove market intelligence** for hedge funds, crypto funds, energy operators, and institutional buyers — the sharpest thing this does: I build a live-data demo report tailored to a specific firm before they commit to anything.
 
-89 branded PDFs across finance, crypto, energy, and sports. Weekly, monthly, and quarterly cadence. Service tiers from $150 to $8,000/month. [View samples and service tiers →](https://github.com/mboyajeffers/financial-market-analysis)
+96 branded PDFs across finance, crypto, energy, and sports. Weekly, monthly, and quarterly cadence. Service tiers from $150 to $8,000/month. [View samples and service tiers →](https://github.com/mboyajeffers/financial-market-analysis)
 
 **For sales partners and BD:** if you work with data-hungry firms in finance, energy, or crypto and want something differentiated to offer your network — open to rev-share, referral fees, or introductions, no volume commitment required. Contact below.
 
@@ -88,8 +88,7 @@ Alongside the engineering, I run **white-glove market intelligence** for hedge f
 |------|-------------|
 | [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 8 projects across 8 industries, 4.3M+ rows, production platform infrastructure (Terraform/CI/RBAC/SLO), ML trading pipeline |
 | [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | 8 API extractors, Kimball star schema, ML pipeline (backtester + signal generator), 200+ tests, CI passing |
-| [**analytics-platform-demo**](https://github.com/mboyajeffers/analytics-platform-demo) | Platform architecture reference — engine pattern, data quality framework, ETL orchestrator |
-| [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 89 sample reports (PDFs), 3 white-glove demos, report generators, service tiers + pricing |
+| [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 96 sample reports (PDFs), 3 white-glove demos, report generators, service tiers + pricing |
 
 ---
 
