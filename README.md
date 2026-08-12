@@ -62,7 +62,6 @@ Every metric traces back to a verifiable public source. No synthetic data. No pr
 
 | System | Models | Accuracy | Status |
 |--------|--------|----------|--------|
-| Day trading signals | Momentum classifier, scalp variant, intraday VaR, volume anomaly | 78.3% (momentum) | Live — 25 tickers, daily → [see it run](https://mboyajeffers.github.io/signals/) |
 | Swing trading | Direction classifier v2, GARCH(1,1) VaR | 69.1% in-sample / walk-forward validated | Paper trading active |
 
 Both systems run end-to-end: feature engineering from daily OHLCV bars → model inference → risk sizing → broker API.
