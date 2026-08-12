@@ -1,13 +1,27 @@
 # Mboya Jeffers
 
-**Data & Platform Engineer — open to remote roles.**
+**AI & Data Systems Consultant — data engineer, solo-built and self-taught.**
 
 I design, build, deploy, secure, and operate production data infrastructure end-to-end — solo. No hand-offs, no platform team behind me: I've been the entire data platform for a live analytics system running on GCP, from Terraform provisioning through CI/CD, RBAC, SLO monitoring, and incident response.
 
 [![CI](https://github.com/mboyajeffers/financial-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/mboyajeffers/financial-data-engineering/actions)
 [![Portfolio](https://img.shields.io/badge/Portfolio-4.3M+_Rows-3b82f6?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
 [![Platform](https://img.shields.io/badge/Platform-IaC_%7C_CI%2FCD_%7C_SLO_%7C_RBAC-2f6f62?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio/tree/main/platform)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/mboya-jeffers-6377ba325)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/mboya-jeffers)
+
+---
+
+## Work with me
+
+Scoped data pipeline builds and embedded engineering capacity — one engineer, production discipline, not a chatbot wrapper or a generic "AI strategy" engagement. Full detail: [**ai-systems-consulting**](https://github.com/mboyajeffers/ai-systems-consulting).
+
+| Service | Price |
+|---------|-------|
+| Custom Data Pipeline & Automation Build | $3,000–$6,000, scoped on a call · 5 business days |
+| Embedded AI & Data Systems Partner | From $2,500/month, scoped in the discovery call |
+| Custom Research & Outreach Agents | Scoped on a call — same pattern as [Jack](https://github.com/mboyajeffers/ai-systems-consulting), the agent I run for my own sales pipeline |
+
+Strongest fit: quant/prop shops and crypto funds that need a second engineer to own their data or signal pipeline — the deepest proof below is built for exactly that.
 
 ---
 
@@ -52,10 +66,14 @@ Every metric traces back to a verifiable public source. No synthetic data. No pr
 
 | System | Models | Accuracy | Status |
 |--------|--------|----------|--------|
-| Day trading signals | Momentum classifier, scalp variant, intraday VaR, volume anomaly | 78.3% (momentum) | Live — 25 tickers, daily |
+| Day trading signals | Momentum classifier, scalp variant, intraday VaR, volume anomaly | 78.3% (momentum) | Live — 25 tickers, daily → [see it run](https://mboyajeffers.github.io/signals/) |
 | Swing trading | Direction classifier v2, GARCH(1,1) VaR | 69.1% in-sample / walk-forward validated | Paper trading active |
 
 Both systems run end-to-end: feature engineering from daily OHLCV bars → model inference → risk sizing → broker API.
+
+**Agents**
+
+Jack — a research/outreach agent (find → research → score → draft, IP-safe by construction) that I built and run for my own sales pipeline, and the working prototype behind the Custom Research & Outreach Agents service above. Case study: [ai-systems-consulting](https://github.com/mboyajeffers/ai-systems-consulting).
 
 ---
 
@@ -86,6 +104,7 @@ Alongside the engineering, I run **white-glove market intelligence** for hedge f
 
 | Repo | What's in it |
 |------|-------------|
+| [**ai-systems-consulting**](https://github.com/mboyajeffers/ai-systems-consulting) | Consulting service repo — scoped pipeline builds, embedded partner tier, research/outreach agents, Jack case study |
 | [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 8 projects across 8 industries, 4.3M+ rows, production platform infrastructure (Terraform/CI/RBAC/SLO), ML trading pipeline |
 | [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | 8 API extractors, Kimball star schema, ML pipeline (backtester + signal generator), 200+ tests, CI passing |
 | [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 96 sample reports (PDFs), 3 white-glove demos, report generators, service tiers + pricing |
@@ -113,11 +132,11 @@ Alongside the engineering, I run **white-glove market intelligence** for hedge f
 
 ## Contact
 
-**Mboya Jeffers** — Data & Platform Engineer
+**Mboya Jeffers** — AI & Data Systems Consultant
 
 - **Email:** MboyaJeffers9@gmail.com
-- **LinkedIn:** [linkedin.com/in/mboya-jeffers-6377ba325](https://linkedin.com/in/mboya-jeffers-6377ba325)
+- **LinkedIn:** [linkedin.com/in/mboya-jeffers](https://linkedin.com/in/mboya-jeffers)
 - **GitHub:** github.com/mboyajeffers
 - **Location:** Remote (US-based)
 
-*Open to remote data/platform engineering roles. Also open to analytics consulting and embedded data partnerships. All sample code is publicly runnable.*
+*Open to scoped consulting engagements and embedded partnerships. Also open to remote data/platform engineering roles. All sample code is publicly runnable.*
