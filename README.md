@@ -1,8 +1,8 @@
 # Mboya Jeffers
 
-**AI & Data Systems Consultant — data engineer, solo-built and self-taught.**
+**AI Engineering Consultant — remote, solo-built and self-taught.**
 
-I design, build, deploy, secure, and operate production data infrastructure end-to-end — solo. No hand-offs, no platform team behind me: I've been the entire data platform for a live analytics system running on GCP, from Terraform provisioning through CI/CD, RBAC, SLO monitoring, and incident response.
+I build production data and AI pipelines for teams that need a senior engineer's ownership without a full-time hire. Everything I offer clients, I run for myself first: I've designed, built, deployed, secured, and operated production data infrastructure end-to-end, solo — no hand-offs, no platform team behind me. From Terraform provisioning through CI/CD, RBAC, SLO monitoring, and incident response.
 
 [![CI](https://github.com/mboyajeffers/financial-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/mboyajeffers/financial-data-engineering/actions)
 [![Portfolio](https://img.shields.io/badge/Portfolio-4.3M+_Rows-3b82f6?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
@@ -23,11 +23,7 @@ Scoped data pipeline builds and embedded engineering capacity — one engineer, 
 
 Strongest fit: quant/prop shops and crypto funds that need a second engineer to own their data or signal pipeline — the deepest proof below is built for exactly that.
 
----
-
-## For hiring managers
-
-If your team needs one engineer to own the whole data platform — not just write pipelines, but provision infrastructure, secure it, monitor it, and keep it running — this is a role I've already done solo, for a live system:
+**What one engineer, done right, actually covers:**
 
 | Capability | Evidence |
 |------------|----------|
@@ -132,11 +128,11 @@ Alongside the engineering, I run **white-glove market intelligence** for hedge f
 
 ## Contact
 
-**Mboya Jeffers** — AI & Data Systems Consultant
+**Mboya Jeffers** — AI Engineering Consultant
 
 - **Email:** MboyaJeffers9@gmail.com
 - **LinkedIn:** [linkedin.com/in/mboya-jeffers](https://linkedin.com/in/mboya-jeffers)
 - **GitHub:** github.com/mboyajeffers
 - **Location:** Remote (US-based)
 
-*Open to scoped consulting engagements and embedded partnerships. Also open to remote data/platform engineering roles. All sample code is publicly runnable.*
+*Open to scoped consulting engagements and embedded partnerships. All sample code is publicly runnable.*
