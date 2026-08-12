@@ -2,7 +2,7 @@
 
 **AI Engineering Consultant — remote.**
 
-I build production data and AI pipelines for teams that need a senior engineer's ownership without a full-time hire. Everything I offer clients, I run for myself first: I've designed, built, deployed, secured, and operated production data infrastructure end-to-end, solo — no hand-offs, no platform team behind me. From Terraform provisioning through CI/CD, RBAC, SLO monitoring, and incident response.
+I build production data and AI pipelines: a scoped, working pipeline in 5 business days, or embedded engineering capacity for ongoing work. Best fit: quant funds, prop desks, and crypto funds that need a second engineer to own their data or signal pipeline. Every pattern below — Terraform-managed infrastructure, CI/CD, RBAC, SLO monitoring, incident response — runs in my own production system first, before it's offered to a client.
 
 [![CI](https://github.com/mboyajeffers/financial-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/mboyajeffers/financial-data-engineering/actions)
 [![Portfolio](https://img.shields.io/badge/Portfolio-4.3M+_Rows-3b82f6?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
@@ -90,9 +90,9 @@ Alongside the engineering, I run **white-glove market intelligence** for hedge f
 | Data processed | **4.3M+ rows** (public portfolio) |
 | Verticals | **9 industry coverage areas** |
 | Live data sources | **9 public APIs** |
-| Intelligence reports | **89 branded PDFs + 3 white-glove demos** |
+| Intelligence reports | **93 branded PDFs + 3 white-glove demos** |
 | ML models deployed | **6** (day trading + swing — paper trading live) |
-| Automated tests | **500+** |
+| Automated tests | **187** (public repos, all passing — verified this session) |
 
 ---
 
@@ -102,8 +102,8 @@ Alongside the engineering, I run **white-glove market intelligence** for hedge f
 |------|-------------|
 | [**ai-systems-consulting**](https://github.com/mboyajeffers/ai-systems-consulting) | Consulting service repo — scoped pipeline builds, embedded partner tier, research/outreach agents, Jack case study |
 | [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 8 projects across 8 industries, 4.3M+ rows, production platform infrastructure (Terraform/CI/RBAC/SLO), ML trading pipeline |
-| [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | 8 API extractors, Kimball star schema, ML pipeline (backtester + signal generator), 200+ tests, CI passing |
-| [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 96 sample reports (PDFs), 3 white-glove demos, report generators, service tiers + pricing |
+| [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | 8 API extractors, Kimball star schema, ML pipeline (backtester + signal generator), 119 tests, CI passing |
+| [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 93 sample reports (PDFs), 3 white-glove demos, report generators, service tiers + pricing |
 
 ---
 
