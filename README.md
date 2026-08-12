@@ -1,6 +1,6 @@
 # Mboya Jeffers
 
-**AI Engineering Consultant — remote, solo-built and self-taught.**
+**AI Engineering Consultant — remote.**
 
 I build production data and AI pipelines for teams that need a senior engineer's ownership without a full-time hire. Everything I offer clients, I run for myself first: I've designed, built, deployed, secured, and operated production data infrastructure end-to-end, solo — no hand-offs, no platform team behind me. From Terraform provisioning through CI/CD, RBAC, SLO monitoring, and incident response.
 
