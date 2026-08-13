@@ -1,6 +1,6 @@
 # Mboya Jeffers
 
-**AI Engineering Consultant — remote.**
+**AI Engineering Consultant — scoped data/AI pipelines for quant, crypto & fintech teams.**
 
 I build production data and AI pipelines: a scoped, working pipeline in 5 business days, or embedded engineering capacity for ongoing work. Best fit: quant funds, prop desks, and crypto funds that need a second engineer to own their data or signal pipeline. Every pattern below — Terraform-managed infrastructure, CI/CD, RBAC, SLO monitoring, incident response — runs in my own production system first, before it's offered to a client.
 
