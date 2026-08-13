@@ -31,7 +31,7 @@ Strongest fit: quant/prop shops and crypto funds that need a second engineer to 
 | **CI/CD** | 5-job pipeline — lint, test, security scan (bandit + pip-audit), SBOM, build |
 | **Observability** | SLO monitoring with error-budget alerting across 3 tracked SLIs |
 | **Security** | 4-role RBAC, immutable append-only audit trail, secrets management |
-| **Data engineering** | 8 ETL pipelines, Kimball star schema modeling, 4.3M+ verified rows |
+| **Data engineering** | 10 ETL pipelines, Kimball star schema modeling, 4.3M+ verified rows |
 | **Operational discipline** | Automated backups, deploy/rollback scripts, runbooks, ADRs |
 
 Full breakdown, with real code: [**Data-Engineering-Portfolio/platform**](https://github.com/mboyajeffers/Data-Engineering-Portfolio/tree/main/platform)
@@ -42,17 +42,18 @@ Full breakdown, with real code: [**Data-Engineering-Portfolio/platform**](https:
 
 Institutional-quality analytics reports and ETL pipelines pulling live data from public APIs, rendered as branded PDFs with auditable data lineage.
 
-**9 verticals covered:**
+**10 verticals covered — Finance, Crypto, Ecommerce, and Solar are the four this business is built around; the rest demonstrate the same extraction pattern reused, not duplicated, across a wide industry surface:**
 
 | Vertical | Data Sources | Key Metrics |
 |----------|-------------|-------------|
 | Finance | Yahoo Finance, FRED | Sector returns, macro environment, yield curve, volatility |
-| Crypto | CoinGecko | Price, market cap, 24h + 30d performance, concentration |
+| Crypto | CoinGecko, DefiLlama | Price, market cap, DeFi TVL, 24h + 30d performance, concentration |
+| Ecommerce | Yahoo Finance, FRED | Sector equity performance, consumer sentiment, retail sales |
+| Solar | Open-Meteo (real archive irradiance) | Peak sun hours, trailing-365-day resource assessment, PV economics |
 | Oil & Gas | EIA API, Yahoo Finance | Crude/NG production, WTI/Henry Hub spot, supply trends |
 | Media & Streaming | Yahoo Finance, FRED | Equity performance, consumer sentiment, sector momentum |
 | Gaming | Yahoo Finance | Market leaders, sector returns, platform rotation |
 | Sports & Betting | ESPN API, Yahoo Finance | League standings, operator equities, market structure |
-| Solar | Open-Meteo, NREL | Capacity factor, peak sun hours, irradiance trends |
 | Weather | Open-Meteo | Temperature, precipitation, climate anomalies |
 | Compliance | FRED | Credit spreads, yield curve, macro risk indicators |
 
@@ -87,11 +88,11 @@ Alongside the engineering, I run **white-glove market intelligence** for hedge f
 | Metric | Value |
 |--------|-------|
 | Data processed | **4.3M+ rows** (public portfolio) |
-| Verticals | **9 industry coverage areas** |
+| Verticals | **10 industry coverage areas** |
 | Live data sources | **9 public APIs** |
-| Intelligence reports | **93 branded PDFs + 3 white-glove demos** |
+| Intelligence reports | **96 branded PDFs + 3 white-glove demos** |
 | ML models deployed | **6** (day trading + swing — paper trading live) |
-| Automated tests | **187** (public repos, all passing — verified this session) |
+| Automated tests | **195** (public repos, all passing — verified directly, not by trusting the README) |
 
 ---
 
@@ -100,9 +101,10 @@ Alongside the engineering, I run **white-glove market intelligence** for hedge f
 | Repo | What's in it |
 |------|-------------|
 | [**ai-systems-consulting**](https://github.com/mboyajeffers/ai-systems-consulting) | Consulting service repo — scoped pipeline builds, embedded partner tier, research/outreach agents, Jack case study |
-| [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 8 projects across 8 industries, 4.3M+ rows, production platform infrastructure (Terraform/CI/RBAC/SLO), ML trading pipeline |
-| [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | 8 API extractors, Kimball star schema, ML pipeline (backtester + signal generator), 119 tests, CI passing |
-| [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 93 sample reports (PDFs), 3 white-glove demos, report generators, service tiers + pricing |
+| [**Data-Engineering-Portfolio**](https://github.com/mboyajeffers/Data-Engineering-Portfolio) | 10 projects across 10 industries, 4.3M+ rows, production platform infrastructure (Terraform/CI/RBAC/SLO), ML trading pipeline |
+| [**financial-data-engineering**](https://github.com/mboyajeffers/financial-data-engineering) | 9 API extractors, Kimball star schema, ML pipeline (backtester + signal generator), 127 tests, CI passing |
+| [**financial-market-analysis**](https://github.com/mboyajeffers/financial-market-analysis) | 96 sample reports (PDFs), 3 white-glove demos, report generators, service tiers + pricing |
+| [**mboyajeffers.github.io/market-pulse**](https://mboyajeffers.github.io/market-pulse/) | Live, scheduled dashboard — Finance, Crypto/DeFi, Ecommerce, Solar, regenerated by a GitHub Action on a cron |
 
 ---
 
