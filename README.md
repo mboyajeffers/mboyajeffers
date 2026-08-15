@@ -1,8 +1,8 @@
 # Mboya Jeffers
 
-**AI Engineering Consultant — scoped data/AI pipelines for quant, crypto & fintech teams.**
+**AI Engineering Consultant — production data and AI pipelines across 10 industries.**
 
-I build production data and AI pipelines: a scoped, working pipeline in 5 business days, or embedded engineering capacity for ongoing work. Best fit: quant funds, prop desks, and crypto funds that need a second engineer to own their data or signal pipeline. Every pattern below — Terraform-managed infrastructure, CI/CD, RBAC, SLO monitoring, incident response — runs in my own production system first, before it's offered to a client.
+I build production data and AI pipelines: a scoped, working pipeline in 5 business days, or embedded engineering capacity for ongoing work — finance, energy, healthcare, gaming, crypto, and more, all running on the same tested extraction and platform layer. Deepest specialization: quant funds, prop desks, and crypto funds that need a second engineer to own their data or signal pipeline. Every pattern below — Terraform-managed infrastructure, CI/CD, RBAC, SLO monitoring, incident response — runs in my own production system first, before it's offered to a client.
 
 [![CI](https://github.com/mboyajeffers/financial-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/mboyajeffers/financial-data-engineering/actions)
 [![Portfolio](https://img.shields.io/badge/Portfolio-4.3M+_Rows-3b82f6?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
