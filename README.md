@@ -7,7 +7,7 @@ I build production data and AI pipelines: a scoped, working pipeline in 5 busine
 [![CI](https://github.com/mboyajeffers/financial-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/mboyajeffers/financial-data-engineering/actions)
 [![Portfolio](https://img.shields.io/badge/Portfolio-4.3M+_Rows-3b82f6?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio)
 [![Platform](https://img.shields.io/badge/Platform-IaC_%7C_CI%2FCD_%7C_SLO_%7C_RBAC-2f6f62?style=flat-square)](https://github.com/mboyajeffers/Data-Engineering-Portfolio/tree/main/platform)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/mboya-jeffers)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/mboya-jeffers-6377ba325)
 
 ---
 
@@ -132,7 +132,7 @@ Alongside the engineering, I run **white-glove market intelligence** for hedge f
 **Mboya Jeffers** — AI Engineering Consultant
 
 - **Email:** MboyaJeffers9@gmail.com
-- **LinkedIn:** [linkedin.com/in/mboya-jeffers](https://linkedin.com/in/mboya-jeffers)
+- **LinkedIn:** [linkedin.com/in/mboya-jeffers](https://linkedin.com/in/mboya-jeffers-6377ba325)
 - **GitHub:** github.com/mboyajeffers
 - **Location:** Remote (US-based)
 
