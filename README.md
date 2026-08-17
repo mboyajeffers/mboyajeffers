@@ -132,6 +132,7 @@ Alongside the engineering, I run **white-glove market intelligence** for hedge f
 
 **Mboya Jeffers** — AI Engineering Consultant
 
+- **Website:** [mboyajeffers.github.io](https://mboyajeffers.github.io)
 - **Email:** MboyaJeffers9@gmail.com
 - **LinkedIn:** [linkedin.com/in/mboya-jeffers](https://linkedin.com/in/mboya-jeffers-6377ba325)
 - **GitHub:** github.com/mboyajeffers
